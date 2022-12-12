@@ -6,6 +6,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -24,7 +25,9 @@
 <h3 align="center">Framework MVC</h3>
 
   <p align="center">
-    Aplicación web para la creación y consulta de la malla curricular del programa de interés. Grupo:PREELEC2202PC-TDS0032
+    Aplicación web para la creación y consulta de la malla curricular del programa de interés.
+    <br /> 
+    Grupo:PREELEC2202PC-TDS0032
     <br />
     <a href="https://github.com/osm3030/Frontend-Pensum"><strong>Acceder al Frontend »</strong></a>
     <br />
@@ -70,10 +73,10 @@ INSERT INTO `Actividad_4_MVC`.`subjects` (`id`, `name`, `credits`, `user_id`, `s
 
 ## Usuarios:
 
-1. Oscar (Coordinador)    
+1. Oscar (Coordinador)   
    usuario: oscar.mantilla@est.iudigital.edu.co  
    contraseña: alpha
-2. Andres (Estudiante) 
+2. Andres (Estudiante)
    usuario: andres.tornado@est.iudigital.edu.co  
    contraseña: betha1
 
