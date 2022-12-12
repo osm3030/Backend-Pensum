@@ -57,17 +57,7 @@
 4. php artisan config:cache
 5. npm install
 6. php artisan migrate
-7. Cargar los siguientes datos a la base de datos:
-
-INSERT INTO `Actividad_4_MVC`.`roles`  VALUES ('1', 'Coordinador', now(), now());  
-INSERT INTO `Actividad_4_MVC`.`roles`  VALUES ('2', 'Estudiante', now(), now());
-INSERT INTO `Actividad_4_MVC`.`users` (`id`, `name`, `email`, `password`, `rol_id`, `created_at`, `updated_at`) VALUES ('1', 'Oscar', 'oscar.mantilla@est.iudigital.edu.co', '$2y$10$LGrlPAxpk2pG1FS.lzPxAe9wzkVEqQKmQrAS7ZHOJ3F9enO4poypq', '1', now(), now());
-INSERT INTO `Actividad_4_MVC`.`users` (`id`, `name`, `email`, `password`, `rol_id`, `created_at`, `updated_at`) VALUES ('2', 'Andres', 'andres.tornado@est.iudigital.edu.co', '$2y$10$8DriqDyKb5KgAQfj.byOfu7Vrzv3mkHPQ.OFbgabsmO85NMqwoApK', '2', now(), now());
-INSERT INTO `Actividad_4_MVC`.`semesters` VALUES ('1', 'Primer Semestre', now(), now());
-INSERT INTO `Actividad_4_MVC`.`semesters` VALUES ('2', 'Segundo Semestre', now(), now());
-INSERT INTO `Actividad_4_MVC`.`subjects` (`id`, `name`, `credits`, `user_id`, `subject_prerequisite`, `autonomous_hours`, `directed_hours`, `semester_id`, `created_at`, `updated_at`) VALUES ('1', 'Framework MVC', '3', '2', NULL, '10', '2', '1', 'now()', 'now()');
-INSERT INTO `Actividad_4_MVC`.`subjects` (`id`, `name`, `credits`, `user_id`, `subject_prerequisite`, `autonomous_hours`, `directed_hours`, `semester_id`, `created_at`, `updated_at`) VALUES ('2', 'Introducción a la ingeniería', '3', '2', NULL, '10', '2', '2', 'now()', 'now()');
-
+7. Ejecutar las sentencias sql del archivo BD.sql para cargar los datos a la base de datos.
 8. php artisan serve
 
 
